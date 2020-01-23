@@ -1,0 +1,28 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+.comm-carddeck {
+  display: flex;
+  flex-direction: col;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  width: 1000px;
+}
+
+.comm-card {
+  width: 320px;
+  height: 500px;
+}
+
+#comm-img {
+  width: 320px;
+  height: 280px;
+}
