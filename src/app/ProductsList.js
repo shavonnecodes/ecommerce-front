@@ -2,7 +2,6 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
 
 
 export const ProductsList = props => {
@@ -13,11 +12,11 @@ export const ProductsList = props => {
                 <Card key={product.id} border="light" bsPrefix="comm-card">
                     <Image src={`${product.productImage}`} rounded id="comm-img"/>
                     <Card.Body>
-                        <Card.Title>{product.productName}</Card.Title>
+                        <Card.Title id="comm-card-title"><h5>{product.productName}</h5></Card.Title>
                         <Card.Text>
-                            {product.productServingSize}
+                            <div className="comm-card-serving">{product.productServingSize}</div>
                             <br></br>
-                            {product.productDescription}
+                            <div className="comm-card-description">{product.productDescription}</div>
                         </Card.Text>
                     </Card.Body>
                 </Card>

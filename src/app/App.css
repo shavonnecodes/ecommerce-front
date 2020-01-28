@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Alice|Jaldi&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
@@ -9,6 +11,7 @@ html, body {
 
 body {
   background-color: rgb(255, 235, 205, .3);
+  font-family: 'Jaldi', sans-serif;
 }
 
 /*BANNER ON TOP OF PAGE -- HEADER*/
@@ -28,6 +31,16 @@ body {
   margin: 5px;
   /* padding-left: 7px;
   padding-right: 7px; */
+}
+
+/* LOGO */
+
+.comm-header-logo {
+  height: 124px;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-right: 689px;
+
 }
 
 /* GENERAL PAGE STRUCTURE */
@@ -64,9 +77,19 @@ body {
   margin-right: 35px;
 }
 
+#comm-p-text {
+  font-family: 'Alice', serif;
+  font-size: 14px;
+  line-height: 1.9;
+}
+
+
 /* NAVBAR */
 
-
+#comm-search-bar {
+  background-color: rgb(224, 218, 204);
+  color: black;
+}
 
 /* HOMEPAGE BEGIN */
 
@@ -97,8 +120,64 @@ body {
 /* PRODUCT PAGE BEGIN */
 /* PRODUCTS */
 
+.comm-products-banner {
+  background-color: rgb(139, 184, 232);
+  height: 55px;
+  width: 980px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+.comm-products-bannertext {
+  font-size: 32px;
+  padding: 5px;
+}
+
+.comm-empty-div {
+  margin: 20px 0;
+}
+
+.comm-products-blurb-msg {
+  width: 980px;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+
+.comm-p-border {
+  border-top: 1px dashed black;
+}
+
+.comm-p-div {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.comm-order-button {
+  background-color: rgb(139, 184, 232);
+  height: 40px;
+  width: 180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px
+}
+
+#comm-href {
+  text-decoration: none !important;
+  color: black;
+}
+
+.comm-products-title {
+  margin-top: 13px;
+  margin-bottom: -50px;
+}
+
 .comm-products-list {
-  margin: 300px;
+  margin: 0 300px;
 }
 
 .comm-carddeck {
@@ -109,6 +188,22 @@ body {
   text-align: center;
   width: 100%;
   padding: 5%;
+}
+
+#comm-card-title {
+  margin-top: -50px;
+  font-weight: 500;
+  margin-bottom: -5px;
+}
+
+.comm-card-serving {
+  font-size: 16px;
+  margin-bottom: -25px;
+
+}
+
+.comm-card-description {
+  font-size: 12px;
 }
 
 .comm-card {
@@ -134,6 +229,21 @@ body {
 
 #comm-footer-links {
   font-size: 12px;
+  text-decoration: none !important;
+  color: black;
+}
+
+.comm-footer-stripe {
+  margin-left: -15px;
+  margin-right: -15px;
+  height: 60px;
+  background: repeating-linear-gradient(
+    to right,
+    #8bb8e8,
+    #8bb8e8 10px,
+    #a8c7e8 10px,
+    #a8c7e8 20px
+  ); 
 }
 
 /* RIBBON ON HOMEPAGE */
