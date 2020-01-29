@@ -32,6 +32,7 @@ export class ProductsPage extends React.Component {
                             <FontAwesomeIcon icon={['fab', 'facebook-f']} id="comm-social-icon" />
                             <FontAwesomeIcon icon={['fab', 'pinterest-p']} id="comm-social-icon" />
                             <FontAwesomeIcon icon={['fab', 'instagram']} id="comm-social-icon" />
+                            <div className="bookmark"></div>
                         </div>
                     </Col>
                 </Row>
@@ -129,6 +130,22 @@ export class ProductsPage extends React.Component {
                         </div>
                     </Col>
                 </Row>
+
+                <Row>
+                    <Col>
+                        <div className="comm-empty-div-products"></div>
+                    </Col>
+                </Row>
+
+                <Row bsPrefix="comm-row">
+                    <Col>
+                        <div>
+                            <Image src="https://i.imgur.com/gkaYBQl.png" id="comm-gift-image"/>
+                        </div>
+                    </Col>
+                </Row>
+
+
 
                 <Navbar expand="lg" sticky="bottom" id="comm-footer-background">
                     <Container id="comm-footer-links">

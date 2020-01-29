@@ -93,16 +93,11 @@ body {
 
 /* HOMEPAGE BEGIN */
 
-.comm-slideshow {
-  margin-bottom: 9px;
-}
-
-.comm-home-banner {
-  background-color: rgb(139, 184, 232);
-  height: 35px;
+#comm-slide-show {
   width: 980px;
   margin: 0 auto;
 }
+
 
 .comm-home-pics {
   display: flex;
@@ -187,7 +182,8 @@ body {
   justify-content: space-evenly;
   text-align: center;
   width: 100%;
-  padding: 5%;
+  margin-top: 50px;
+  margin-bottom: -5px;
 }
 
 #comm-card-title {
@@ -219,6 +215,11 @@ body {
   height: 280px;
 }
 
+#comm-gift-image {
+  margin: 0 auto;
+}
+
+
 /* FOOTER BITS */
 #comm-footer-background {
   background-color: rgb(139, 184, 232);
@@ -248,3 +249,49 @@ body {
 
 /* RIBBON ON HOMEPAGE */
 
+.comm-home-ribbon {
+  position: relative;
+  background: rgb(139, 184, 232);
+  text-align: center;
+  z-index: 1;
+  width: 950px;
+  height: 35px;
+  margin: 0 auto;
+}
+
+.comm-home-ribbon:before {
+  content: '';
+  border: 17.5px solid rgb(139, 184, 232);
+  border-left-color: transparent;
+  border-left-width: 14px;
+  position: absolute;
+  top: 0;
+  left: -15px;
+}
+
+.comm-home-ribbon:after {
+  content: '';
+  border: 17.5px solid rgb(139, 184, 232);
+  border-right-color: transparent;
+  border-right-width: 21px;
+  position: absolute;
+  top: 0;
+  right: -19px;
+}
+
+.bookmark {
+  width: 0px;
+  height: 100px;
+  background-color: transparent;
+  position: absolute;
+  top: -5px;
+  right: 453px;
+  border: solid 50px rgb(139, 184, 232);
+  border-bottom: solid 50px transparent;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.bookmark:hover {
+  height: 165px;
+}
