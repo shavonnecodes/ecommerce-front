@@ -78,6 +78,8 @@ body {
 }
 
 #comm-p-text {
+  margin-top: 10px;
+  margin-bottom: -5px;
   font-family: 'Alice', serif;
   font-size: 14px;
   line-height: 1.9;
@@ -133,6 +135,10 @@ body {
   margin: 20px 0;
 }
 
+.comm-empty-div-products-end {
+  margin: 20px 0 50px 0;
+}
+
 .comm-products-blurb-msg {
   width: 980px;
   margin: 0 auto;
@@ -142,6 +148,7 @@ body {
 
 .comm-p-border {
   border-top: 1px dashed black;
+  margin-top: 20px;
 }
 
 .comm-p-div {
@@ -154,6 +161,17 @@ body {
   background-color: rgb(139, 184, 232);
   height: 40px;
   width: 180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px
+}
+
+.comm-local-button {
+  background-color: rgb(139, 184, 232);
+  height: 35px;
+  width: 400px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -232,6 +250,7 @@ body {
   font-size: 12px;
   text-decoration: none !important;
   color: black;
+  width: 950px;
 }
 
 .comm-footer-stripe {

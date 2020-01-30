@@ -85,11 +85,11 @@ export class ProductsPage extends React.Component {
                     </Col>
                 </Row>
 
-                <Row>
+                {/* <Row>
                     <Col>
                         <div className="comm-empty-div"></div>
                     </Col>
-                </Row>
+                </Row> */}
 
                 <Row>
                     <Col>
@@ -131,12 +131,6 @@ export class ProductsPage extends React.Component {
                     </Col>
                 </Row>
 
-                <Row>
-                    <Col>
-                        <div className="comm-empty-div-products"></div>
-                    </Col>
-                </Row>
-
                 <Row bsPrefix="comm-row">
                     <Col>
                         <div>
@@ -145,6 +139,51 @@ export class ProductsPage extends React.Component {
                     </Col>
                 </Row>
 
+                <Row>
+                    <Col>
+                        <div className="comm-empty-div"></div>
+                    </Col>
+                </Row>
+
+
+                <Row bsPrefix="comm-row">
+                    <Col>
+                        <div className="comm-order-div">
+                            <Button bsPrefix="comm-local-button"><h5>SELECT YOUR LOCAL BAKERY FOR PRICING</h5></Button>{' '}
+                            <p id="comm-p-text">Gift items vary by bakery. Contact or visit your local bakery for available items.</p>
+                        </div>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col>
+                        <div className="comm-products-blurb-msg">
+                            <p className="comm-p-border"></p>
+                            <h4>FROSTING</h4>
+                            <div className="comm-p-div">
+                                <p id="comm-p-text">We're famous for the thick frosting petals that adorn each of our cakes. Our signature frosting is made with velvety cream cheese and real butter. For a lighter touch, choose our drizzle frosting.</p>
+                            </div>
+                            <p className="comm-p-border"></p>
+                        </div>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col>
+                        <div className="comm-products-blurb-msg">
+                            <h4>FOOD ALLERGEN NOTE</h4>
+                            <div className="comm-p-div">
+                                <p id="comm-p-text">Our cakes contain wheat, milk, eggs, pecans (in our Pecan Praline cakes only) and soy. Cakes may contain traces of tree nuts and peanuts.</p>
+                            </div>
+                        </div>
+                    </Col>
+                </Row>
+
+                <Row>
+                    <Col>
+                        <div className="comm-empty-div-products-end"></div>
+                    </Col>
+                </Row>
 
 
                 <Navbar expand="lg" sticky="bottom" id="comm-footer-background">
